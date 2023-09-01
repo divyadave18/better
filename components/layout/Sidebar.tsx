@@ -40,7 +40,7 @@ const Sidebar = () => {
     {
       icon: FaShoppingCart,
       label: 'Merchendies',
-      href: `/users/${currentUser?.id}`,
+      href: '/merch',
       auth: true,
     },
   ]
