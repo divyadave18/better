@@ -2,6 +2,7 @@ import { signOut } from 'next-auth/react';
 import { BiLogOut } from 'react-icons/bi';
 import { BsHouseFill, BsBellFill,BsFillCalendarEventFill } from 'react-icons/bs';
 import { FaUser,FaShoppingCart } from 'react-icons/fa';
+import Eventsglob from '../events/EventList';
 import useCurrentUser from '@/hooks/useCurrentUser';
 
 import SidebarItem from './SidebarItem';
@@ -33,7 +34,7 @@ const Sidebar = () => {
     {
       icon: BsFillCalendarEventFill,
       label: 'Globle Events',
-      href: `/users/${currentUser?.id}`,
+      href: '/events',
       auth: true,
     },
     {
