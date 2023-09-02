@@ -36,7 +36,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
 
       await axios.post(url, { body });
 
-      toast.success('Tweet created');
+      toast.success('Post created');
       setBody('');
       mutatePosts();
       mutatePost();

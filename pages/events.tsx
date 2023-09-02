@@ -4,7 +4,7 @@ export default function events() {
     return (
         <div className='align-center justify-center mt-5 '>
             <h1 className='text-white text-center text-3xl mb-5 font-bold'>🎉Globle Upcoming Events🎉</h1>
-            <div className='gap-5 flex flex-col'>
+            <div className='gap-5 flex flex-col px-10'>
                 <a href='https://developers.google.com/community/gdsc' target="_blank">
                     <div className="card m-w-24 bg-base-100 shadow-xl">
                         <figure><img src="/1.png" alt="Shoes" /></figure>

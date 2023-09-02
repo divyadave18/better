@@ -12,9 +12,9 @@ export default function events() {
                             <img src="/ts1.png" alt="Shoes" className="rounded-xl " />
                         </figure>
                         <div className="card-body items-center text-center">
+                        <div className="badge badge-secondary">399/-</div>
                             <h2 className="card-title">Move On!</h2>
-                            <p>Chase Your Dream</p>
-                            <a href='https://developers.google.com/community/gdsc' target="_blank">
+                            <a href='https://rzp.io/l/hm1lhFaZ' target="_blank">
                             <div className="card-actions">
                                 <button className="btn bg-emerald-500 text-white">Buy Now</button>
                             </div>
@@ -27,9 +27,9 @@ export default function events() {
                             <img src="/ts2.png" alt="Shoes" className="rounded-xl " />
                         </figure>
                         <div className="card-body items-center text-center">
+                        <div className="badge badge-secondary">399/-</div>
                             <h2 className="card-title">Positivity!</h2>
-                            <p>Be Positive In Every Situation</p>
-                            <a href='https://developers.google.com/community/gdsc' target="_blank">
+                            <a href='https://rzp.io/l/hm1lhFaZ' target="_blank">
                             <div className="card-actions">
                                 <button className="btn bg-emerald-500 text-white">Buy Now</button>
                             </div>

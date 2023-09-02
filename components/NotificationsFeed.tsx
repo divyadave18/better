@@ -1,4 +1,5 @@
 import { BsTwitter } from "react-icons/bs";
+import Image from 'next/image'
 
 import useNotifications from "@/hooks/useNotifications";
 import useCurrentUser from "@/hooks/useCurrentUser";
@@ -24,7 +25,13 @@ const NotificationsFeed = () => {
     <div className="flex flex-col">
       {fetchedNotifications.map((notification: Record<string, any>) => (
         <div key={notification.id} className="flex flex-row items-center p-6 gap-4 border-b-[1px] border-neutral-800">
-          <BsTwitter color="white" size={32} />
+
+          <Image
+      src="/5b.png"
+      width={35}
+      height={300}
+      alt="Picture of the author"
+    /> 
           <p className="text-white">
             {notification.body}
           </p>

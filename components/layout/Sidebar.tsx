@@ -2,12 +2,10 @@ import { signOut } from 'next-auth/react';
 import { BiLogOut } from 'react-icons/bi';
 import { BsHouseFill, BsBellFill,BsFillCalendarEventFill } from 'react-icons/bs';
 import { FaUser,FaShoppingCart } from 'react-icons/fa';
-import Eventsglob from '../events/EventList';
 import useCurrentUser from '@/hooks/useCurrentUser';
 
 import SidebarItem from './SidebarItem';
 import SidebarLogo from './SidebarLogo';
-import SidebarTweetButton from './SidebarTweetButton';
 
 const Sidebar = () => {
   const { data: currentUser } = useCurrentUser();
@@ -39,7 +37,7 @@ const Sidebar = () => {
     },
     {
       icon: FaShoppingCart,
-      label: 'Merchendies',
+      label: 'Merchandise',
       href: '/merch',
       auth: true,
     },
