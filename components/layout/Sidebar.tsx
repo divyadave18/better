@@ -1,7 +1,7 @@
 import { signOut } from 'next-auth/react';
 import { BiLogOut } from 'react-icons/bi';
 import { BsHouseFill, BsBellFill,BsFillCalendarEventFill } from 'react-icons/bs';
-import { FaUser,FaShoppingCart } from 'react-icons/fa';
+import { FaUser,FaShoppingCart,FaGlobeAfrica } from 'react-icons/fa';
 import useCurrentUser from '@/hooks/useCurrentUser';
 
 import SidebarItem from './SidebarItem';
@@ -27,6 +27,12 @@ const Sidebar = () => {
       icon: FaUser,
       label: 'Profile',
       href: `/users/${currentUser?.id}`,
+      auth: true,
+    },
+    {
+      icon: FaGlobeAfrica,
+      label: 'Communities',
+      href: '/communities',
       auth: true,
     },
     {
