@@ -1,7 +1,4 @@
 import React from 'react'
-
-
-
 export default function events() {
     return (
         <div className=' flex flex-col items-center mt-5 '>

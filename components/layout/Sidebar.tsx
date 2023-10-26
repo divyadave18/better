@@ -3,7 +3,6 @@ import { BiLogOut } from 'react-icons/bi';
 import { BsHouseFill, BsBellFill,BsFillCalendarEventFill } from 'react-icons/bs';
 import { FaUser,FaShoppingCart,FaGlobeAfrica } from 'react-icons/fa';
 import useCurrentUser from '@/hooks/useCurrentUser';
-
 import SidebarItem from './SidebarItem';
 import SidebarLogo from './SidebarLogo';
 
