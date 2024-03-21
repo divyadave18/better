@@ -34,7 +34,7 @@ export default function events() {
                         <figure><img src="/3.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">
-                                Hacktober Fest!
+                                 Hacktober Fest!
                                 <div className="badge badge-secondary">NEW</div>
                             </h2>
                             <p>Fest of tasks presented by Hactober fest</p>

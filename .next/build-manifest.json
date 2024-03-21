@@ -27,15 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/communities": [
+    "/notifications": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/communities.js"
+      "static/chunks/pages/notifications.js"
     ],
-    "/events": [
+    "/users/[userId]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/events.js"
+      "static/chunks/pages/users/[userId].js"
     ]
   },
   "ampFirstPages": []
